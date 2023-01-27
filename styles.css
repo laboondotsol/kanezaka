@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    background-image: url("img/kanezaka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.top{
+    color: white;
+}
+
+#kanji{
+    font-family: Ipam;
+    text-shadow: 0px 0px 10px black;
+    line-height: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#title{
+    font-family: Akira;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+#description{
+    
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 0px 0px 13px black;
+}
+
+.middle{
+    text-shadow: 0px 0px 13px black;
+    color: white;
+}
+
+#esta{
+    margin-top: 10px;
+    font-family: Arthura;
+    text-align: center;
+}
+
+.establishments{
+    text-shadow: 0px 0px 13px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cat-cafe, #pachimari, #toranosumika{
+    width: 150px;
+    border-radius: 100%;
+    border: 4px solid #fea1c5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cat-cafe:hover + .catcafemp3{
+    display: block;
+}
+
+.catcafemp3{
+    display: none;
+}
+
+.pachimari:hover + .pachimarimp3{
+    display: block;
+}
+
+.pachimarimp3{
+    display: none;
+}
+
+.toranosumika:hover + .toranosumikamp3{
+    display: block;
+}
+
+.toranosumikamp3{
+    display: none;
+}
+
+#hcat{
+    color: white;
+    font-family: Arthura;
+    margin-left: 0;
+}
+
+#hmari{
+    color: white;
+    font-family: Arthura;
+    margin-left: 0;
+}
+
+#htora{
+    color: white;
+    font-family: Arthura;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+#pcat{
+    margin-left: 35px;
+
+}
+
+#pcat, #pmari, #ptora{
+    color: white;
+    font-size: 12px;
+    font-family: Arthura;
+    margin-top: 0;
+}
+
+#ptora{
+    margin-right: 47px;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px auto;
+    border-bottom: 7px solid #fea1c5;
+    color: #e9e8f1;
+    background: #d8a8af;
+    text-align: center;
+    border-radius: 10%;
+
+}
+
+.kiriko{
+    width: 300px;
+    height: 300px;
+}
+
+#guide{
+    font-family: Arthura;
+    padding-bottom: 20px;
+}
+
+#hometown{
+    padding-top: 20px;
+    font-family: Arial;
+}
+
+#kamori{
+    padding-top: 50px;
+    font-family: Arthura;
+}
+
+@font-face {
+    font-family: Arthura;
+    src: url("Arthura\ Medium.otf");
+}
+
+@font-face {
+    font-family: Akira;
+    src: url("AkiraExpanded.otf");
+}
+
+@font-face {
+    font-family: Ipam;
+    src: url("IPAMincho\ Regular.ttf");
+}
